@@ -1,0 +1,676 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+header {
+    width: 1487px;
+    height: 719px;
+    flex-shrink: 0;
+    background-color: rgb(255, 255, 255);
+    margin: 56 163 5095 -50;
+}
+
+header .contain {
+
+    width: 100%;
+    height: 150px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+header .contain img {
+    width: 330px;
+    height: 80px;
+    margin-left: 50px;
+}
+
+header .contain ul {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: var(--1f1534-hyfen, #1F1534);
+    font-family: Muli;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    opacity: 0.5;
+}
+
+
+
+header .contain2 {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+header .contain2 .header-text {
+    width: 445px;
+    height: 338px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+header .contain2 .header-text h2 {
+    color: #000;
+    font-family: Muli;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 56px;
+
+}
+
+header .contain2 .header-text p {
+    color: #7D7987;
+    font-family: Muli;
+    font-size: 21px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 32px;
+}
+
+header .contain2 .header-text button {
+    width: 200px;
+    height: 60px;
+    border-radius: 55px;
+    background: #458FF6;
+    color: #FFF;
+    font-family: Muli;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 60px;
+    border-style: none;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+main .section1 {
+    width: 1482.581px;
+    height: 1133px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 200px;
+    gap: 20px;
+}
+
+main .section1 .text {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+main .section1 .text h2 {
+    color: #000;
+    font-family: Muli;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 56px;
+}
+
+main .section1 .text hr {
+    width: 56px;
+    height: 4px;
+    border-radius: 5px;
+    background: #000;
+}
+
+main .section1 .text p {
+    color: #7D7987;
+    text-align: center;
+    font-family: Muli;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 30px;
+}
+
+main .section1 .services {
+    width: 1120px;
+    height: 745px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+main .section1 .services .card {
+    width: 350px;
+    height: 354px;
+    border-radius: 20px;
+    background: #FFF;
+    box-shadow: 10px 40px 50px 0px rgba(229, 233, 246, 0.40);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 55px
+}
+
+main .section1 .services .card i {
+    width: 91.978px;
+    height: 90px;
+}
+
+main .section1 .services .card h2 {
+    color: #000;
+    font-family: Muli;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 56px;
+}
+
+main .section1 .services .card p {
+    color: #7d7987b0;
+    font-family: Muli;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 28px;
+}
+
+main .section1 button {
+    width: 200px;
+    height: 60px;
+    border-radius: 55px;
+    border: 1.4px solid #458FF6;
+    color: #458FF6;
+    font-family: Muli;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 60px;
+}
+
+main .section2 {
+    width: 1273px;
+    height: 477px;
+    display: flex;
+    gap: 90px;
+}
+
+main .section2 img {
+    width: 650px;
+    height: 477px;
+    background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+}
+
+main .section2 .text {
+    width: 486px;
+    height: 388px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+main .section2 .text h2 {
+    width: 481px;
+    color: #000;
+    font-family: Muli;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 56px;
+}
+
+main .section2 .text p {
+    color: #7D7987;
+    font-family: Muli;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 30px;
+}
+
+main .section2 .text hr {
+    width: 56px;
+    height: 2px;
+    border-radius: 10px;
+    background: #000;
+}
+
+main .section2 button {
+    width: 200px;
+    height: 60px;
+    border-radius: 55px;
+    border: 1.4px solid #458FF6;
+    color: #458FF6;
+    font-family: Muli;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 60px;
+    margin-top: 40px;
+}
+
+main .section3 {
+    width: 1365.581px;
+    height: 675px;
+    display: flex;
+    gap: 90px;
+    align-items: center;
+    justify-content: center;
+}
+
+main .section3 .text {
+    width: 420px;
+    height: 375px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+main .section3 img {
+    width: 665px;
+    height: 434px;
+    background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+}
+
+main .section3 .text h2 {
+    color: #000;
+    font-family: Muli;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 48px;
+}
+
+main .section3 .text p {
+    color: #7D7987;
+    font-family: Muli;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 30px;
+}
+
+main .section3 .text hr {
+    width: 56px;
+    height: 2px;
+    border-radius: 6px;
+    background: #000;
+}
+
+main .section3 button {
+    width: 200px;
+    height: 60px;
+    border-radius: 55px;
+    border: 1.4px solid #458FF6;
+    color: #458FF6;
+    font-family: Muli;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 60px;
+    margin-top: 40px;
+}
+
+main .section4 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+
+main .section4_1 {
+    width: 1120px;
+    height: 425px;
+    flex-shrink: 0;
+    border-radius: 24px;
+    background: linear-gradient(208deg, #67C3F3 9.05%, #5A98F2 76.74%);
+    display: flex;
+    flex-direction: column;
+
+}
+
+main .section4_1 .title_text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 40px;
+}
+
+main .section4_1 .title_text h4 {
+    color: #FFF;
+    font-family: Muli;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 48px;
+}
+
+main .section4_1 .title_text hr {
+    width: 56px;
+    height: 2px;
+    flex-shrink: 0;
+    border-radius: 6px;
+    background: #FFF;
+}
+
+main .section4_1 .center {
+    display: flex;
+    align-items: end;
+    justify-content: space-evenly;
+    margin-top: 100px;
+
+}
+
+main .section4_1 .center img {
+    width: 141px;
+    height: 141px;
+    flex-shrink: 0;
+}
+
+main .section4_1 .center .image h6 {
+    color: #FFF;
+    font-family: Muli;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 48px;
+}
+
+main .section4_1 .center .image p {
+    color: rgba(255, 255, 255, 0.85);
+    font-family: Muli;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 48px;
+}
+
+main .section4_1 .center p {
+    width: 420px;
+    color: rgba(255, 255, 255, 0.90);
+    font-family: Muli;
+    font-size: 19px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+main .section4 .arrow_nav {
+    width: 336.429px;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+main .section5 {
+    width: 1482.581px;
+    height: 1133px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 200px;
+
+}
+
+main .section5 .text {
+    width: 462px;
+    height: 84px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+main .section5 .text h2 {
+    color: #000;
+    font-family: Muli;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 56px;
+}
+
+main .section5 .text hr {
+    width: 56px;
+    height: 2px;
+    border-radius: 5px;
+    background: #000;
+}
+
+main .section5 .cards {
+    width: 1120px;
+    height: 646px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+main .section5 .cards .card {
+    width: 350px;
+    height: 512px;
+    border-radius: 20px;
+    background: #FFF;
+    box-shadow: 10px 40px 50px 0px rgba(229, 233, 246, 0.40);
+
+}
+
+main .section5 .cards .card img {
+    width: 349px;
+    height: 246px;
+    object-fit: cover;
+    background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+}
+
+main .section5 .cards .card h4 {
+    color: #000;
+    font-family: Muli;
+    font-size: 21px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 32px;
+    padding: 10px;
+}
+
+main .section5 .cards .card p {
+    width: 266px;
+    color: #7D7987;
+    font-family: Muli;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 28px;
+    padding: 10px;
+}
+
+main .section5 .cards .card h5 {
+    width: 266px;
+    color: #4089ED;
+    font-family: Muli;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 28px;
+    padding: 10px;
+}
+
+main .section5 button {
+    width: 200px;
+    height: 56px;
+    border-radius: 55px;
+    border: 1.4px solid #458FF6;
+    color: #458FF6;
+    font-family: Muli;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 60px;
+}
+
+footer {
+    width: 1519px;
+    height: 432px;
+    background: linear-gradient(183deg, #67C3F3 -8.57%, #5A98F2 82.96%);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+footer .trafalgar {
+    width: 319px;
+    height: 201px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+footer .trafalgar .logo {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+footer .trafalgar .logo h4 {
+    width: 41px;
+    height: 41px;
+    background-color: #FFF;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #5B9BF3;
+    font-family: Muli;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+footer .trafalgar .logo span {
+    color: #FFF;
+    font-family: Muli;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+footer .trafalgar p {
+    color: #FFF;
+    font-family: Muli;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 28px;
+}
+
+footer .company {
+    width: 176px;
+    height: 201px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+footer .company h4 {
+    color: #FFF;
+    font-family: Muli;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 60px;
+}
+
+footer .company ul {
+    display: flex;
+    flex-direction: column;
+    color: #FFF;
+    font-family: Muli;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 25px;
+    gap: 10px;
+}
+footer .region {
+    width: 176px;
+    height: 201px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+footer .region h4 {
+    color: #FFF;
+    font-family: Muli;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 60px;
+}
+
+footer .region ul {
+    display: flex;
+    flex-direction: column;
+    color: #FFF;
+    font-family: Muli;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 25px;
+    gap: 10px;
+}
+footer .help {
+    width: 176px;
+    height: 201px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+footer .help h4 {
+    color: #FFF;
+    font-family: Muli;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 60px;
+}
+
+footer .help ul {
+    display: flex;
+    flex-direction: column;
+    color: #FFF;
+    font-family: Muli;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 25px;
+    gap: 10px;
+}
